@@ -1,0 +1,818 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #010101;
+    color: #f0f0f0;
+    font-family: 'Reem Kufi', sans-serif;
+}
+.nabanner
+{
+    width: 100%;
+    height: 26vw;
+    background-image: url("planeta1.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.nav1 ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 1vw;
+}
+.nav1 ul li
+{
+    margin-right: 0.6vw;
+    margin-left: 0.6vw;
+    font-size: 1.6vw;
+}
+.nav1 ul li a
+{
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: 500;
+}
+.nabanner header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nabanner header h1
+{
+    font-size: 7.2vw;
+    font-weight: 500;
+}
+.nabanner header h2
+{
+    font-size: 1.6vw;
+    font-weight: 400;
+}
+main
+{
+    width: 100%;
+    margin-top: 23vw;
+}
+.fullstrona
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 53vw;
+}
+.fullstrona .planeta
+{
+    height: 49vw;
+    width: 18vw;
+    background-image: url("planeta2.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.planeta pre
+{
+    font-size: 5.5vh;
+    font-family: 'Reem Kufi', sans-serif;
+    margin-right: 7vw;
+    color: #f0f0f0;
+}
+.teksty
+{
+    display: grid;
+    grid-template-columns: 64% 32%;
+    grid-template-rows: 60% 30;
+    gap: 1.5vw;
+    height: 90%;
+    width: 93vw;
+    padding: 2vw;
+}
+.artykul1
+{
+    grid-row: span 2;
+}
+.artykul3
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid yellow;
+}
+.fullstrona p
+{
+    font-size: 1.9vh;
+    text-align: justify;
+    color: #f0f0f0;
+}
+.artykul3 img
+{
+    height: 10vw;
+    width: 9vw;
+}
+.teksty h4
+{
+    font-size: 2.8vh;
+    margin-bottom: 0.5vw;
+    text-align: center;
+    color: #f0f0f0;
+}
+.planeta2
+{
+    height: 50vw;
+    width: 20vw;
+    background-image: url("planeta3.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.planeta2 pre
+{
+    font-size: 3vw;
+    font-family: 'Reem Kufi', sans-serif;
+    margin-left: 7vw;
+    color: #f0f0f0;
+}
+.galeria
+{
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-template-rows: 23vw 23vw ;
+    width: 80vw;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 2vw;
+}
+.galeria > div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria div img
+{
+    width: 20vw;
+    height: 20vw;
+}
+.planeta3
+{
+    height: 50vw;
+    width: 15vw;
+    background-image: url("image 10.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.planeta3 pre
+{
+    font-size: 5.6vh;
+    font-family: 'Reem Kufi', sans-serif;
+    margin-right: 7vw;
+    color: #f0f0f0;
+}
+.oferta
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 85vw;
+}
+.oferta h3
+{
+    font-size: 4vh;
+    font-weight: 500;
+    text-align: center;
+}
+.dol
+{
+    height: 45vw;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 20% 20%;
+    grid-template-rows: 55% 35%;
+    justify-content: center;
+    align-content: center;
+    gap: 1vw;
+}
+.wiekszy
+{
+    grid-row: span 2;
+}
+.wiekszy img
+{
+    height: 100%;
+}
+.telefony
+{
+    grid-column: span 2;
+}
+.dol img
+{
+    width: 100%;
+}
+.telefony
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.telefony p
+{
+    font-size: 5.6vh
+}
+a
+{
+    text-decoration: none;
+    color: #f0f0f0;
+}
+.nafooter
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.nafooter h3
+{
+    font-size: 5.6vh;
+    font-weight: 500;
+}
+footer
+{
+    background-image: url("planetadol.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 25.4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formularz
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70vw;
+    height: 15vw;
+    flex-wrap: wrap;
+    padding: 2vw;
+}
+.pola
+{
+    background: none;
+    border: none;
+    border-bottom: 0.2vw solid #f0f0f0;
+    color: #f0f0f0;
+    width: 15vw;
+    height: 2.5vw;
+    font-size: 1.8vh;
+    margin-bottom: 2vw;
+}
+.wiadomosc
+{
+    background: none;
+    border: 0.2vw solid #f0f0f0;
+    border-radius: 0.5vw;
+    color: #f0f0f0;
+    width: 30vw;
+    height: 10vw;
+    font-size: 1.8vh;
+    padding: 0.5vw;
+}
+.tik
+{
+    height: 1vw;
+    width: 1vw;
+}
+label
+{
+    font-size: 1.8vh;
+    font-weight: 400;
+}
+.przycisk
+{
+    background: none;
+    border: 0.2vw solid #f0f0f0;
+    border-radius: 0.5vw;
+    color: #f0f0f0;
+    height: 2.2vw;
+    width: 5vw;
+    font-size: 1.7vh;
+}
+footer a
+{
+    font-size: 3.4vh;
+}
+footer h4
+{
+    font-size: 6.4vh;
+    font-weight: 500;
+}
+footer h5
+{
+    font-size: 3.4vh;
+    font-weight: 400;
+}
+footer img
+{
+    height: 8vw;
+    width: 8vw;
+    margin-bottom: 1.5vw;
+}
+.planeta h2
+{
+    display: none;
+}
+.nav2
+{
+    display: none;
+}
+.zapasowagaleria
+{
+    display: none;
+}
+.zapasowaoferta
+{
+    display: none;
+}
+
+@media screen and (min-device-width: 600px) and (max-device-width: 900px)
+{
+    .teksty
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .fullstrona
+    {
+        height: 100%;
+        border: 1px solid red;
+    }
+    .fullstrona p
+    {
+        font-size: 2vh;
+    }
+    #fullstrona1
+    {
+        height: auto;
+        flex-direction: column;
+    }
+    .fullstrona .planeta
+    {
+        background-image: none;
+        height: auto;
+        width: auto;
+    }
+    .planeta pre
+    {
+        display: none;
+    }
+    .planeta h2
+    {
+        display: inline;
+        font-size: 5vh;
+    }
+    main
+    {   
+        margin-top: 10vw;
+    }
+    .nabanner h2
+    {
+        display: none;
+    }
+    .nav1
+    {
+        display: none;
+    }
+    .nav2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        height: 7vh;
+        margin-top: 1vh;
+        background-color: #010101;
+    }
+    .nav2 ul
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+    }
+    .nav2 ul li
+    {
+        margin-right: 1vw;
+        margin-left: 1vw;
+        font-size: 3vh;
+    }
+    .nabanner header h1
+    {
+        font-size: 9vw;
+        font-weight: 500;
+    }
+    .teksty *
+    {
+        margin-top: 1vh;
+    }
+    .artykul3
+    {
+        width: 70vw;
+    }
+    .artykul3 img
+    {
+        height: 20vw;
+        width: 18vw;
+    }
+    .fullstrona
+    {
+        height: auto;
+    }
+    .fullstrona .planeta2
+    {
+        background-image: none;
+        height: auto;
+        width: auto;
+    }
+    .planeta2 pre
+    {
+        display: none;
+    }
+    .galeria
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33% ;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    .galeria *
+    {
+        border: 1px solid yellow;
+    }
+    .galeria div img
+    {
+        width: 90%;
+        height: 100%;
+    }   
+    .zapasowagaleria
+    {
+        display: block;
+        font-size: 5vh;
+        text-align: center;
+    }
+    .fullstrona .planeta3
+    {
+        background-image: none;
+        height: auto;
+        width: auto;
+    }
+    .planeta3 pre
+    {
+        display: none;
+    }
+    .planeta3 h2
+    {
+        display: inline;
+        font-size: 5vh;
+    }
+    .zapasowaoferta
+    {
+        display: block;
+        font-size: 5vh;
+        text-align: center;
+    }
+    .telefony
+    {
+        border: 1px solid yellow;;
+    }
+    .telefony p
+    {
+        font-size: 2.5vh;
+    }
+    .formularz h3
+    {
+        margin-top: 1vh;
+        font-size: 4vh;
+    }
+    form
+    {
+        margin-top: 2vh;
+        width: 80vw;
+        height: 15vw;
+        flex-wrap: nowrap;
+    }
+    .pola
+    {
+        border-bottom: 0.4vw solid #f0f0f0;
+        color: #f0f0f0;
+        width: 20vw;
+        height: 5vh;
+        font-size: 1.8vh;
+        margin-bottom: 2vw;
+    }
+    .formularz
+    {
+        height: auto;
+        margin-bottom: 5vh;
+    }
+    .wiadomosc
+    {
+        height: auto;
+    }
+    .tik
+    {
+        height: 2vh;
+        width: 2vh;
+    }
+    .przycisk
+    {
+        height: 2.2vh;
+        width: 11vw;
+        font-size: 1.7vh;
+    }
+    footer a
+    {
+        font-size: 3.6vw;
+    }
+    footer h4
+    {
+        display: none;
+    }
+    footer h5
+    {
+        font-size: 4vw;
+        font-weight: 400;
+    }   
+    footer img
+    {
+        height: 8vw;
+        width: 8vw;
+        margin-bottom: 1.5vw;
+    }
+    .social
+    {
+        display: none;
+    }
+}
+@media screen and (max-device-width: 599px)
+{
+    .teksty
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .fullstrona
+    {
+        height: 100%;
+        border: 1px solid red;
+    }
+    .fullstrona p
+    {
+        font-size: 2vh;
+    }
+    #fullstrona1
+    {
+        height: auto;
+        flex-direction: column;
+    }
+    .fullstrona .planeta
+    {
+        background-image: none;
+        height: auto;
+        width: auto;
+    }
+    .planeta pre
+    {
+        display: none;
+    }
+    .planeta h2
+    {
+        display: inline;
+        font-size: 5vh;
+    }
+    main
+    {   
+        margin-top: 10vw;
+    }
+    .nabanner h2
+    {
+        display: none;
+    }
+    .nav1
+    {
+        display: none;
+    }
+    .nav2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        height: 7vh;
+        margin-top: 1vh;
+        background-color: #010101;
+    }
+    .nav2 ul
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+    }
+    .nav2 ul li
+    {
+        margin-right: 1vw;
+        margin-left: 1vw;
+        font-size: 4.7vw;
+    }
+    .nabanner header h1
+    {
+        font-size: 9vw;
+        font-weight: 500;
+    }
+    .teksty *
+    {
+        margin-top: 1vh;
+    }
+    .artykul3
+    {
+        width: 70vw;
+    }
+    .artykul3 img
+    {
+        height: 20vw;
+        width: 18vw;
+    }
+    .fullstrona
+    {
+        height: auto;
+    }
+    .fullstrona .planeta2
+    {
+        background-image: none;
+        height: auto;
+        width: auto;
+    }
+    .planeta2 pre
+    {
+        display: none;
+    }
+    .galeria
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33% ;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    .galeria *
+    {
+        border: 1px solid yellow;
+    }
+    .galeria div img
+    {
+        width: 90%;
+        height: 100%;
+    }   
+    .zapasowagaleria
+    {
+        display: block;
+        font-size: 5vh;
+        text-align: center;
+    }
+    .fullstrona .planeta3
+    {
+        background-image: none;
+        height: auto;
+        width: auto;
+    }
+    .planeta3 pre
+    {
+        display: none;
+    }
+    .planeta3 h2
+    {
+        display: inline;
+        font-size: 5vh;
+    }
+    .zapasowaoferta
+    {
+        display: block;
+        font-size: 5vh;
+        text-align: center;
+    }
+    .telefony
+    {
+        border: 1px solid yellow;;
+    }
+    .telefony p
+    {
+        font-size: 2vh;
+    }
+    .formularz h3
+    {
+        margin-top: 1vh;
+        font-size: 4vh;
+        margin-bottom: 3vh;
+    }
+    form
+    {
+        margin-top: 2vh;
+        width: 80vw;
+        height: 15vw;
+        flex-wrap: nowrap;
+    }
+    .pola
+    {
+        border-bottom: 0.4vw solid #f0f0f0;
+        color: #f0f0f0;
+        width: 20vw;
+        height: 5vh;
+        font-size: 1.8vh;
+        margin-bottom: 2vw;
+    }
+    .formularz
+    {
+        height: auto;
+        margin-bottom: 5vh;
+    }
+    .wiadomosc
+    {
+        height: auto;
+    }
+    .tik
+    {
+        height: 2vh;
+        width: 2vh;
+    }
+    .przycisk
+    {
+        height: 2.2vh;
+        width: 11vw;
+        font-size: 1.7vh;
+    }
+    footer a
+    {
+        font-size: 3.6vw;
+    }
+    footer h4
+    {
+        display: none;
+    }
+    footer h5
+    {
+        font-size: 4vw;
+        font-weight: 400;
+    }   
+    footer img
+    {
+        height: 8vw;
+        width: 8vw;
+        margin-bottom: 1.5vw;
+    }
+    .social
+    {
+        display: none;
+    }
+}
