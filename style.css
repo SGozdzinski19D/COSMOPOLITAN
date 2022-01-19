@@ -111,7 +111,6 @@ main
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid yellow;
 }
 .fullstrona p
 {
@@ -171,6 +170,12 @@ main
 {
     width: 20vw;
     height: 20vw;
+    transition: 0.5s;
+}
+.galeria div img:hover
+{
+    width: 21vw;
+    height: 21vw;
 }
 .planeta3
 {
@@ -491,6 +496,12 @@ footer img
     {
         width: 90%;
         height: 100%;
+        transition: 0.5s;
+    }
+    .galeria div img:hover
+    {
+        width: 95%;
+        height: 110%;
     }   
     .zapasowagaleria
     {
@@ -714,6 +725,12 @@ footer img
     {
         width: 90%;
         height: 100%;
+        transition: 0.5s;
+    }
+    .galeria div img:hover
+    {
+        width: 95%;
+        height: 110%;
     }   
     .zapasowagaleria
     {
